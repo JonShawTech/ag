@@ -1,38 +1,263 @@
-.App {
+
+
+
+
+.banner {
+  
+ 
+  justify-content: space-evenly; 
+  background-color: #000;
+  margin-bottom: 0;
+  padding: .1em;
+  padding-left: 1em;
+ 
+ 
+
+  
+
+}
+
+.searchResults img{
+
+  margin: .5em;
+  /* width: 500px; */
+  /* border: solid 5px #fff; */
+  
+ 
+
+}
+
+.searchResults {
+
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+ 
+  box-sizing: border-box;
+  border:4px solid #3769ca;
+  border-radius: 4px;
+  font-size: 16px;
+  
+  background-color: rgb(185, 180, 180);
+
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 11px 40px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+button {
+  box-sizing: border-box;
+  border:4px solid #3769ca;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgb(185, 180, 180);
+
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  
+   padding: 0px 2px 10px 2px; 
+
+}
+
+button:hover {
+cursor: pointer;
+}
+
+.searchbox {
+  width: 400px;
+
+
+   
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+body {
+  
+  margin: 0;
+
+ background-color: #000; 
+      /* background-image: url('./component/images/space.jpg');  */
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  
+  font-family: "Times New Roman", Times, serif;
+   
+}
+ 
+  
+
+
+ h1{
+  color: #fff;
+  
+  
+  
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  h2 {
+    font-size:  1.25rem ;
+    color: #fff;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+
+  h3 {
+
+    color:rgb(114, 112, 112);
   }
+  
+  
+  
+  .transbox {
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #fff;
+    padding: .5em;
+    
+   
+    width: 50%;
+  }
+  a {
+    font-size:  1.25rem ;
+    font-weight: bold;
+    color: #fff;
+  }
+  .player {
+    margin-left: auto;
+    margin-right: auto; 
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+  
+  }
+  .white {
+
+    color: #fff;
+  }
+  .logo {
+    font-style: italic;
+  }
+  .title {
+   
+   
+    background-color: #3769ca;
+    
+    text-align: center;
+    
+    
+    
+  } 
+  
+  footer {
+  
+    
+    background-color: #666666;
+    padding: 2em;
+    margin-top: 5px;
+    text-align: center;
+    
+   
+
+  }
+  
+  .alignleft {
+    position: absolute;
+    float: left;
+    
+
+    
+  }
+  .aligncenter {
+    
+    text-align: center;
+
+
+    
+  }
+   
+ 
+
+  @media screen and (max-width: 450px) {
+
+
+  body {
+    margin-top: 5%;
+  }
+  img {
+    width: 75%;
+    
+    
+  }
+
+
+  h1 {
+    font-size: .75em;
+
+  }
+
+  h2 {
+
+   font-size:  .6em;
+  }
+
+  h3 {
+    font-size: .5em;
+
+  }
+  .transbox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    background-color: #000;
+    border: 1px solid black; 
+    opacity: 0.8;
+    width: 100%;
+    padding: 5px;
+  }
+  .footer {
+
+    padding: 0em;
+  }
+
+  
+}  
+
+ /* @media screen and (max-width: 450px) {
+
+  .wrapper{
+
+    width: 75%;
+  }
+  body {
+    margin-top: 5%;
+    
+  }
+  
+
+  h1 {
+    font-size: 1.5em;
+
+  }
+
+  h2 {
+
+   font-size:  1.25em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+
+  }
+
 }
+   */
